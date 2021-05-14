@@ -1,6 +1,6 @@
 const campground = JSON.parse(camp);
 console.log(campground.geometry);
-mapboxgl.accessToken = 'pk.eyJ1IjoiZXNoYW5kZWIiLCJhIjoiY2tvankzcThxMGRwbzJvbzBibmF2emhxciJ9.8EPGpNc60sFz0IEci9jzFQ';
+mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10',
